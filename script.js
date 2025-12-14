@@ -9,11 +9,13 @@ function delay(ms) {
     });
 }
 submit.addEventListener('click', async function(){
-	const store=Number(delayTime.value)*1000;
+	
+	const store=Number(delayTime.value);
 	
 
 await delay(store);
 const newline=document.createElement('p')
+	console.log("loading..")
 newline.textContent=input.value;
 	
 div.appendChild(newline)
