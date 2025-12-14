@@ -13,7 +13,7 @@ submit.addEventListener('click', async function(){
 	
 
 await delay(store);
-const newline=document.creatElement('p')
+const newline=document.createElement('p')
 newline.textContent=input.value;
 	
 div.appendChild(newline)
